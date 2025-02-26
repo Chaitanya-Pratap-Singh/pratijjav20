@@ -63,6 +63,7 @@ const Navbar = () => {
 						</Link>
 						<Link
 							href="/about"
+							onClick={() => window.location.href = "/about"}
 							className={`relative transition-all duration-200 ${
 								pathname === "/about"
 									? "bg-gradient-to-r from-[#7F654A] via-[#EBCE89] to-[#7F654A] text-transparent bg-clip-text"
